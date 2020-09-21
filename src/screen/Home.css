@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+.Container{
+    display: flex;
+    margin:0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;    
+    align-items: center; 
+   
+}
+.Maincontainer{ 
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to left,rgba(128, 128, 128,0.1),rgb(0,0,0)),url("../img/Joaquin.png");    
+    height: 100vh;
+    width: 100% ;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;    
+}
+
+/* Section starting */
+.section1{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    width: 100% ;
+    height: 500px;
+}
+.h1-text{
+    margin: 0;
+    color: rgba(255, 255, 255);
+    font-size:58px;
+    font-family:Bahnschrift ;
+    padding:0;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.h4-text{
+    margin: 0;
+    line-height: 35px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin: 0;
+    color: rgba(255, 255, 255);
+    font-family:Bahnschrift ;
+}
+.read-left{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 85%;
+}
+.knowmore{
+    margin: 0;
+    width: 150px;
+    height: 30px;
+    font-family: Bahnschrift ;
+    font-weight: bold;
+}
+.selection-right{  
+    display: flex;  
+    width: 384px;
+    height: 85%;
+    background-color: rgba(13, 13, 13,0.6);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.options{    
+    margin: 50px;
+    
+    
+}
+
+.select-languaga{
+    color:white;
+}
+.option-genre{
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    font-size: medium;
+    border:none;
+    margin-top: 5px;
+    border-radius: 2px;
+    outline: none;
+    border-bottom: 1px solid #c9c9c98a;
+}
+
+
+.button-input{
+    height: 30px;
+    width: 100%;
+    font-size: medium;
+    cursor: pointer;
+    border: none;
+    color:'#fff';
+    border-radius: 2px;
+}
+
+
+/* //issue in button and option width  */

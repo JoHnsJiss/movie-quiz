@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.dasboard__container {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(to top, rgba(128, 128, 128, 0.1), rgba(0, 0, 0)),
+    url("../img/popcorn.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+.data__Result {
+  margin-left: 20px;
+}
+.sub__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+}

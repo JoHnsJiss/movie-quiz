@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background: linear-gradient(to top, rgba(128, 128, 128, 0.1), rgba(0, 0, 0)),
+    url("../img/theater\ inside.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.main-section {
+  position: relative;
+  display: flex;
+  height: 560px;
+  width: 100%;
+  top: 25px;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.finish {
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  color: "#fff";
+  border-radius: 2px;
+  width: 280px;
+  height: 100%;
+}
+.finish__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 5%;
+}
+.section-right {
+  height: 100%;
+  width: 380px;
+  background-color: rgba(13, 13, 13, 0.6);
+}
+.section-content {
+  height: 650px;
+  width: 100%;
+}
+
+.section-left {
+  height: 100%;
+  width: 380px;
+  background-color: yellow;
+  background-color: rgba(13, 13, 13, 0.6);
+}
+
+.h1-quiz {
+  color: white;
+}
+
+/* content of movies style */
+.imgsize {
+  width: 100%;
+  height: 320px;
+  padding: 10px 30px;
+}
+.image__quiz {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.staricon {
+  color: yellow;
+}
+
+.imagetext {
+  height: 190px;
+  padding: 0 30px;
+}
+
+.iconalign {
+  display: flex;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 10px;
+  color: rgba(255, 255, 255);
+  font-family: Bahnschrift;
+}
+.textstyleh3 {
+  color: rgba(255, 255, 255);
+  font-family: Bahnschrift;
+}
+.vote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  padding: 0 30px;
+}
+.votebutton {
+  font-size: medium;
+  cursor: pointer;
+  border: none;
+  color: "#fff";
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+}
+
+/* content of movie end */

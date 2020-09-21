@@ -1,0 +1,16 @@
+.headers {
+  display: flex;
+  width: 100%;
+  background-color: rgba(13, 13, 13, 0.6);
+  justify-content: center;
+  z-index: 1;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+img {
+  width: 210px;
+  height: 45px;
+  cursor: pointer;
+}
